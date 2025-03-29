@@ -29,4 +29,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo -v ; curl https://rclone.org/install.sh | sudo bash
-          rclone version
+          rclone --version
